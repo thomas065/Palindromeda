@@ -32,10 +32,10 @@ function checkForPalindrome(userString) {
     }
 
     if (revString == userString) {
-        returnObj.msg = "Well done! You entered a palindrome."
+        returnObj.msg = "Well done Hero, it's a Palindrome! Now hurry on to save the Princess."
     }
     else {
-        returnObj.msg = "Sorry!  That was not a palindrome."
+        returnObj.msg = "Eek!  Your stone statue will be on display for the next adventurer."
     }
 
     returnObj.reversed = revString;
@@ -43,7 +43,7 @@ function checkForPalindrome(userString) {
 }
 
 //display message to the screen
-function displayMessage() {
+function displayMessage(returnObj) {
     
     document.getElementById("alertHeader").innerHTML = returnObj.msg;
     document.getElementById("msg").innerHTML = `Your phrase reversed is: ${returnObj.reversed}`;
