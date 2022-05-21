@@ -10,11 +10,11 @@ body {
 }
 
 nav {
-    background-color: var(--dark-color);
+    background-color: red;
 }
 
 footer {
-    background-color: var(--dark-color);
+    background-color: rgb(235, 157, 11);
 }
 
 h1,
@@ -37,7 +37,7 @@ footer .social>a {
 
 footer .social>a:hover {
     opacity: 0.9;
-    color: var(--secondary-color);
+    color: purple;
 }
 
 .bsicon {
@@ -57,7 +57,12 @@ footer .social>a:hover {
 }
 
 .checklist>li i {
-    color: var(--secondary-color);
+    color: red;
+}
+
+.logoFont {
+    font-family: 'Macondo',
+    cursive;
 }
 
 code[class*="language-"],
